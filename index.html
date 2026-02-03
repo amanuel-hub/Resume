@@ -3,72 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ashley Manuel | CV</title>
+<title>Ashley Manuel | Senior Platform Infrastructure Engineer</title>
 <style>
-body {
-  margin: 0;
-  font-family: "Segoe UI", system-ui, sans-serif;
-  background: radial-gradient(circle at top, #1e293b, #020617);
-  color: #e5e7eb;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.card {
-  background: linear-gradient(145deg, #020617, #0f172a);
-  padding: 3rem;
-  border-radius: 22px;
-  text-align: center;
-  box-shadow: 0 30px 60px rgba(0,0,0,.7);
-}
-
-h1 {
-  font-size: 2.6rem;
-  margin-bottom: .5rem;
-  background: linear-gradient(90deg, #38bdf8, #22c55e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-p {
-  color: #94a3b8;
-}
-
-.buttons {
-  margin-top: 2rem;
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-a {
-  text-decoration: none;
-  padding: .9rem 2rem;
-  border-radius: 999px;
-  font-weight: 700;
-  background: linear-gradient(135deg, #38bdf8, #22c55e);
-  color: #020617;
-  box-shadow: 0 10px 25px rgba(0,0,0,.5);
-  transition: transform 0.3s;
-}
-a:hover {
-  transform: scale(1.1);
-}
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(120deg, #e0f7fa, #fff8e1);
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px;
+        background: white;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        border-radius: 15px;
+        transform-style: preserve-3d;
+    }
+    h1, h2, h3 {
+        color: #00796b;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+        border-bottom: 2px solid #00796b;
+        padding-bottom: 5px;
+    }
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        color: #004d40;
+    }
+    p, li {
+        line-height: 1.6;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    .section {
+        margin-bottom: 25px;
+        padding: 15px;
+        border-left: 6px solid #00796b;
+        transition: transform 0.3s;
+    }
+    .section:hover {
+        transform: rotateY(5deg) scale(1.02);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .contact {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+    .skills li {
+        margin-bottom: 5px;
+    }
+    .projects li {
+        margin-bottom: 8px;
+    }
+    .highlight {
+        color: #d32f2f;
+        font-weight: bold;
+    }
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>Ashley Manuel</h1>
-  <p>SC Cleared · Senior Platform Infrastructure Engineer</p>
-  <p>Reading, UK · ✉️ ash@aamanuel-rocks.co.uk</p>
-  <div class="buttons">
-    <a href="consultant.html">Consultant CV</a>
-    <a href="engineer.html">Engineer CV</a>
-  </div>
+<div class="container">
+    <h1>Ashley Manuel (UK Resident)</h1>
+    <p class="highlight">SC Cleared | Senior Platform Infrastructure Engineer</p>
+    <p class="contact">Reading, United Kingdom<br>
+    Mobile: +44 7477 401063 | Email: <a href="mailto:ash@aamanuel-rocks.co.uk">ash@aamanuel-rocks.co.uk</a></p>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>Senior Infrastructure & Platform Engineer with 22+ years of experience delivering secure, highly available on-prem, private cloud, and hybrid platforms. Strong expertise in VMware, Hyper-V, Windows, Citrix, Linux, and cloud technologies (AWS & Azure). Proven leader in platform engineering, migrations, lifecycle management, and L3 support, with a focus on automation and continuous improvement.</p>
+    </div>
+
+    <div class="section">
+        <h2>Core Skills</h2>
+        <ul class="skills">
+            <li><strong>Virtualisation:</strong> VMware vSphere, vSAN, SRM, vCloud Director, Aria Suite, Hyper-V, Citrix, VDI</li>
+            <li><strong>Cloud:</strong> AWS (Solutions Architect Associate), Azure (AZ-300)</li>
+            <li><strong>Operating Systems:</strong> Windows Server, Linux, Active Directory</li>
+            <li><strong>Backup & DR:</strong> Veeam, Hyper-V Replication, HA/DR design (RPO/RTO)</li>
+            <li><strong>Storage & Compute:</strong> Dell, HPE, UCS, Nimble, EMC, Infortrend, SAN/NAS</li>
+            <li><strong>Networking & Security:</strong> DNS, DHCP, RBAC, MFA, Cyber Essentials</li>
+            <li><strong>Automation & Scripting:</strong> PowerShell, Bash</li>
+            <li><strong>Practices:</strong> ITIL v3, Agile, ISO standards</li>
+            <li><strong>Leadership:</strong> L3 escalation, mentoring, platform ownership</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+
+        <h3>Senior Platform Engineer – Redcentric Solutions Ltd (Jun 2024 – Present)</h3>
+        <ul class="projects">
+            <li>Build, manage, and support private cloud environments from scratch for Hyper-V and VMware platforms.</li>
+            <li>Lead platform upgrades, patching, firmware, and lifecycle management.</li>
+            <li>Onboard Broadcom VLS customers, deliver migrations, platform refreshes, and data‑centre exits.</li>
+            <li>Provide L3 escalation support with root cause analysis and permanent fixes.</li>
+            <li>Mentor L2 engineers and drive automation and standardisation initiatives.</li>
+        </ul>
+
+        <h3>Cloud Engineer (Contract) – Redcentric Solutions Ltd via Nodes Technologies Ltd (May 2023 – Jun 2024)</h3>
+        <ul class="projects">
+            <li>Managed 4D private cloud environments, Windows domains, and public DNS integration.</li>
+            <li>Integrated 4D infrastructure with Redcentric systems, consolidating SPLA reporting, backups, and licensing compliance.</li>
+            <li>Collaborated with monitoring teams to deploy collectors and integrate CI monitoring with LogicMonitor from Opsview.</li>
+        </ul>
+
+        <h3>Infrastructure Engineer – Satellite Applications Catapult (Apr 2021 – May 2023)</h3>
+        <ul class="projects">
+            <li>Managed VMware private cloud (vCloud, vCloud Director, NSX, SSL-VPN), VDI, GPU servers, and storage.</li>
+            <li>Supported Azure POC project and Kubernetes clusters (certificates, ingress, Helm, Git, Keycloak, Terraform, k3s, Cloudian S3).</li>
+            <li>Delivered Windows 2008 R2 → 2016 domain migration, password manager application migration, WSUS redesign, ESXi upgrades, AD health checks, and RVtools reporting automation.</li>
+        </ul>
+
+        <h3>Technical Lead – Infrastructure Delivery, PepsiCo UK (2013 – Mar 2021)</h3>
+        <ul class="projects">
+            <li>Led data-centre consolidation, platform modernization, Citrix & AD migrations, and DR solutions.</li>
+            <li>Migrated Windows 2003 domain and dependent legacy applications to supported OS and hardware.</li>
+            <li>Delivered VMware infrastructure with EMC storage, hyper-converged solutions, file/print server migration, and integrated print solutions.</li>
+            <li>Implemented Veeam backup, automation scripts, and DevOps CI/CD pipeline migrations.</li>
+        </ul>
+
+        <h3>Senior Infrastructure Management Analyst – ACS / Xerox (Nov 2010 – Jun 2013)</h3>
+        <ul class="projects">
+            <li>L3 support and team lead for VMware, Citrix, Windows infrastructure, SLA adherence, and ITIL operations.</li>
+            <li>Delivered Hyper-V implementation, physical → virtual conversions, Citrix hosting, patch automation, and VDI management.</li>
+        </ul>
+
+        <h3>System Administrator – Oracle, India (Aug 2006 – Oct 2010)</h3>
+        <ul class="projects">
+            <li>Supported 20,000+ servers across Oracle data centres, performing AD group policy standardization, WSUS implementation, and virtualization conversions.</li>
+        </ul>
+
+        <h3>System Analyst – Accenture, India (Jun 2004 – Aug 2006)</h3>
+        <ul class="projects">
+            <li>Managed project-specific Windows servers, file/print services, AD support, and desktop migrations.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p>B.E. Computer Science & Engineering – Madras University</p>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>VMware Certified Professional – vSphere 8 (2024)</li>
+            <li>VMware VCF 9.0 Support (2026)</li>
+            <li>AWS Certified Solutions Architect – Associate (2018)</li>
+            <li>Microsoft Azure Architect Technologies AZ‑300 (2020)</li>
+            <li>VMware VCP 4.1 | MCSE Windows 2000</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Target Roles</h2>
+        <ul>
+            <li>Senior Platform / Infrastructure Engineer</li>
+            <li>Infrastructure & Hybrid Cloud Consultant</li>
+            <li>Infrastructure Migration Consultant</li>
+            <li>Platform Engineering / Infrastructure Delivery</li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
-

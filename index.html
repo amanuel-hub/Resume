@@ -9,7 +9,7 @@
 
     body {
         font-family: 'Roboto', sans-serif;
-        background: linear-gradient(120deg, #e0f7fa, #fff8e1);
+        background: linear-gradient(120deg, #f5f5f5, #ffffff);
         color: #333;
         margin: 0;
         padding: 0;
@@ -21,10 +21,9 @@
         background: white;
         box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         border-radius: 15px;
-        transform-style: preserve-3d;
     }
     h1, h2, h3 {
-        color: #00796b;
+        color: #555;
     }
     h1 {
         font-size: 2rem;
@@ -33,13 +32,13 @@
     h2 {
         font-size: 1.5rem;
         margin-top: 30px;
-        border-bottom: 2px solid #00796b;
+        border-bottom: 2px solid #555;
         padding-bottom: 5px;
     }
     h3 {
         font-size: 1.2rem;
         margin-bottom: 5px;
-        color: #004d40;
+        color: #333;
     }
     p, li {
         line-height: 1.6;
@@ -50,12 +49,12 @@
     .section {
         margin-bottom: 25px;
         padding: 15px;
-        border-left: 6px solid #00796b;
-        transition: transform 0.3s;
+        border-left: 6px solid #555;
+        transition: transform 0.2s, box-shadow 0.2s;
     }
     .section:hover {
-        transform: rotateY(5deg) scale(1.02);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        transform: scale(1.01);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
     .contact {
         font-size: 0.95rem;
@@ -68,14 +67,21 @@
         margin-bottom: 8px;
     }
     .highlight {
-        color: #d32f2f;
+        color: #999;
         font-weight: bold;
+    }
+    a {
+        color: #555;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 </style>
 </head>
 <body>
 <div class="container">
-    <h1>Ashley Manuel (UK Resident)</h1>
+    <h1>Ashley Manuel</h1>
     <p class="highlight">SC Cleared | Senior Platform Infrastructure Engineer</p>
     <p class="contact">Reading, United Kingdom<br>
     Mobile: +44 7477 401063 | Email: <a href="mailto:ash@aamanuel-rocks.co.uk">ash@aamanuel-rocks.co.uk</a></p>
@@ -159,8 +165,8 @@
     <div class="section">
         <h2>Certifications</h2>
         <ul>
-            <li>VMware Certified Professional – vSphere 8 (2024)</li>
             <li>VMware VCF 9.0 Support (2026)</li>
+            <li>VMware Certified Professional – vSphere 8 (2024)</li>
             <li>AWS Certified Solutions Architect – Associate (2018)</li>
             <li>Microsoft Azure Architect Technologies AZ‑300 (2020)</li>
             <li>VMware VCP 4.1 | MCSE Windows 2000</li>
